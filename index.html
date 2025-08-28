@@ -1,0 +1,59 @@
+<html>
+<head>
+<title>Form Elements</title>
+</head>
+<style>
+    body {
+      margin: 0;
+      padding: 0;
+       background-image: url('https://thumbs.dreamstime.com/b/art-italian-homemade-menu-food-background-restaurant-week-home-cooking-59119707.jpg');
+       background-size: cover;
+       background-repeat: no-repeat;
+                   height: 110vh;
+    }
+    .button {
+  background-color: #008CBA; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}               
+
+
+</style>
+<body>  
+  <br><br><br><br>
+<h2 style="color:rgb(185, 32, 162);" align="center">RESERVE YOUR TABLE</h2>
+<form><br><br>
+ <pre>                                     Name:                    <input type = "text" name = "name" /><br><br>
+                                     Email:                   <input type = "text" name = "Email" /><br/><br/>
+                                     Phone Number:            <input type = "text" name = "phone_number" /><br><br/>
+                                     Number of guests:        <select name = "dropdown">
+                                                              <option value = "1" selected>1</option>
+                                                              <option value = "2">2</option>
+                                                              <option value = "3">3</option>
+                                                              <option value = "4">4</option>
+                                                              <option value = "5">5</option>
+                                                              <option value = "6">6</option>
+                                                              </select><br/><br/>
+                                     Select Gender: 
+                                    <input type = "radio" name = "male" value = "Male"> Male
+                                    <input type = "radio" name = "female" value = "Female"> Female
+                                    <br/><br/>
+                                     Select : 
+                                     <input type = "checkbox" name = "breakfast" > Breakfast
+                                     <input type = "checkbox" name = "lunch" > Lunch
+                                     <input type ="checkbox"> Dinner
+                                    <br/><br/>
+                                      Special Notes: <br/>
+                                      <textarea rows = "5" cols = "50" name = "description">
+                                      Enter description here...
+                                      </textarea>
+                                      <br/>
+                                                                                      <button class="button">Reserve</button>
+</form></body></html
